@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.johnson.webcomicreader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+8-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:4:5-79
+11-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:5:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.9.0-alpha05] /Users/robjohnson/.gradle/caches/transforms-3/c8ebab26ce82ba85cd30f0996ac6ae80/transformed/core-1.9.0-alpha05/AndroidManifest.xml:23:5-25:47
+15        android:name="com.johnson.webcomicreader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0-alpha05] /Users/robjohnson/.gradle/caches/transforms-3/c8ebab26ce82ba85cd30f0996ac6ae80/transformed/core-1.9.0-alpha05/AndroidManifest.xml:24:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0-alpha05] /Users/robjohnson/.gradle/caches/transforms-3/c8ebab26ce82ba85cd30f0996ac6ae80/transformed/core-1.9.0-alpha05/AndroidManifest.xml:25:9-44
+17
+18    <uses-permission android:name="com.johnson.webcomicreader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0-alpha05] /Users/robjohnson/.gradle/caches/transforms-3/c8ebab26ce82ba85cd30f0996ac6ae80/transformed/core-1.9.0-alpha05/AndroidManifest.xml:27:5-97
+18-->[androidx.core:core:1.9.0-alpha05] /Users/robjohnson/.gradle/caches/transforms-3/c8ebab26ce82ba85cd30f0996ac6ae80/transformed/core-1.9.0-alpha05/AndroidManifest.xml:27:22-94
+19
+20    <application
+20-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:7:5-28:19
+21        android:allowBackup="true"
+21-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0-alpha05] /Users/robjohnson/.gradle/caches/transforms-3/c8ebab26ce82ba85cd30f0996ac6ae80/transformed/core-1.9.0-alpha05/AndroidManifest.xml:29:18-86
+23        android:debuggable="true"
+24        android:enableOnBackInvokedCallback="true"
+24-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:9:9-51
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:10:9-43
+27        android:label="@string/app_name"
+27-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:11:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:12:9-54
+29        android:supportsRtl="true"
+29-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:13:9-35
+30        android:theme="@style/AppTheme" >
+30-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:14:9-40
+31        <activity
+31-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:15:9-27:20
+32            android:name="com.johnson.webcomicreader.Main"
+32-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:16:13-59
+33            android:configChanges="orientation"
+33-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:17:13-48
+34            android:exported="true"
+34-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:18:13-36
+35            android:label="WebComicReader" >
+35-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:19:13-43
+36            <intent-filter>
+36-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:21:13-26:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:23:17-69
+37-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:23:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:25:17-77
+39-->/Users/robjohnson/Downloads/WebComicReader/app/src/main/AndroidManifest.xml:25:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/robjohnson/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/robjohnson/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+45            android:authorities="com.johnson.webcomicreader.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/robjohnson/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/robjohnson/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/robjohnson/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/robjohnson/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/robjohnson/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/robjohnson/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/robjohnson/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/robjohnson/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+53        </provider>
+54    </application>
+55
+56</manifest>

@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id layout
+id textView
+layout layout
+mipmap ic_launcher
+mipmap ic_launcher_round
+string BC
+string app_name
+string baldo
+string bleachers
+string explosim
+string famlyCircus
+string fortknox
+string foxtrot
+string hagar
+string orange
+string pearls
+string washpost
+string webcomic_reader
+string xkcd
+string zits
+style AppTheme
+style Theme.WebComicReader

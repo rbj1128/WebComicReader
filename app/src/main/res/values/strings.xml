@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WebComic Reader</string>
+    <string name="foxtrot">Fox-Trot</string>
+    <string name="zits">Zits</string>
+    <string name="explosim">Explosim</string>
+    <string name="xkcd">XKCD</string>
+    <string name="washpost">Washington Post Comics</string>
+    <string name="BC">BC</string>
+    <string name="baldo">Baldo</string>
+    <string name="bleachers">In The Bleachers</string>
+    <string name="famlyCircus">The Family Circus</string>
+    <string name="fortknox">Fort Knox</string>
+    <string name="hagar">Hagar The Horrible</string>
+    <string name="orange">Rhymes With Orange</string>
+    <string name="pearls">Pearls Before Swine</string>
+    <string name="webcomic_reader">WebComic Reader</string>
+</resources>
