@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.johnson.webcomicreader.app-mergeDebugResources-27:/values-v16/values-v16.xml",
+            "outputFile": "com.johnson.webcomicreader.app-mergeDebugResources-26:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/robjohnson/.gradle/caches/transforms-3/c8ebab26ce82ba85cd30f0996ac6ae80/transformed/core-1.9.0-alpha05/res/values-v16/values-v16.xml",
+                    "source": "/Users/robjohnson/.gradle/caches/transforms-3/dab8cede7dc34e9a450ace53e147c5b5/transformed/core-1.9.0-alpha05/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/robjohnson/.gradle/caches/transforms-3/116430c231f652ec6cb468c7433d967b/transformed/appcompat-1.4.1/res/values-v16/values-v16.xml",
+                    "source": "/Users/robjohnson/.gradle/caches/transforms-3/4c27cc2bd5587878bd9cd3fd0056caf8/transformed/appcompat-1.4.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

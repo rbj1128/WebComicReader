@@ -1,5 +1,4 @@
-com.johnson.webcomicreader.test.app-androidTest-0 /Users/robjohnson/Downloads/WebComicReader/app/build/generated/res/resValues/androidTest/debug
-com.johnson.webcomicreader.test.app-androidTest-1 /Users/robjohnson/Downloads/WebComicReader/app/build/generated/res/rs/androidTest/debug
-com.johnson.webcomicreader.test.app-mergeDebugAndroidTestResources-2 /Users/robjohnson/Downloads/WebComicReader/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.johnson.webcomicreader.test.app-mergeDebugAndroidTestResources-3 /Users/robjohnson/Downloads/WebComicReader/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.johnson.webcomicreader.test.app-merged_res-4 /Users/robjohnson/Downloads/WebComicReader/app/build/intermediates/merged_res/debugAndroidTest
+com.johnson.webcomicreader.test.app-androidTest-0 /Users/robjohnson/sandbox/WebComicReader/app/build/generated/res/resValues/androidTest/debug
+com.johnson.webcomicreader.test.app-mergeDebugAndroidTestResources-1 /Users/robjohnson/sandbox/WebComicReader/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.johnson.webcomicreader.test.app-mergeDebugAndroidTestResources-2 /Users/robjohnson/sandbox/WebComicReader/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.johnson.webcomicreader.test.app-merged_res-3 /Users/robjohnson/sandbox/WebComicReader/app/build/intermediates/merged_res/debugAndroidTest

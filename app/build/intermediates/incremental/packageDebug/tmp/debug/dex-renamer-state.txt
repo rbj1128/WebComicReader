@@ -1,10 +1,10 @@
-#Wed Oct 11 09:48:39 EDT 2023
-base.2=/Users/robjohnson/Downloads/WebComicReader/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
-path.2=7/classes.dex
-base.1=/Users/robjohnson/Downloads/WebComicReader/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-path.1=0/classes.dex
-base.0=/Users/robjohnson/Downloads/WebComicReader/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
+#Tue Nov 14 11:06:00 EST 2023
+base.0=/Users/robjohnson/sandbox/WebComicReader/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/robjohnson/sandbox/WebComicReader/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/robjohnson/sandbox/WebComicReader/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
 path.0=classes.dex
+path.1=0/classes.dex
+path.2=7/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

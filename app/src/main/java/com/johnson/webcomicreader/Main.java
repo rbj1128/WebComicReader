@@ -18,7 +18,6 @@ public class Main extends Activity {
     Button baldoBtn;
     Button bCBtn;
     Button bleachersBtn;
-    Button fortKnoxBtn;
     Button foxTrotBtn;
     Button explosimBtn;
     Button hagarBtn;
@@ -96,23 +95,6 @@ public class Main extends Activity {
             }
         });
         this.linearLayout.addView((View) this.bleachersBtn);
-
-        // Fort Knox
-        this.fortKnoxBtn = new Button((Context) this);
-        this.fortKnoxBtn.setText(R.string.fortknox);
-        this.fortKnoxBtn.setLayoutParams(new ViewGroup.LayoutParams(-1, -2));
-        this.fortKnoxBtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View param1View) {
-                if (!Main.this.isNetworkAvailable()) {
-                    Toast.makeText(Main.this.getApplicationContext(), "No Network Connection", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-                Intent intent = new Intent("android.intent.action.VIEW", Uri.parse(
-                        "https://www.washingtonpost.com/entertainment/comics/fort-knox/"));
-                Main.this.startActivity(intent);
-            }
-        });
-        this.linearLayout.addView((View) this.fortKnoxBtn);
 
         // Fox-Trot
         this.foxTrotBtn = new Button((Context) this);

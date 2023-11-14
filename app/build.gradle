@@ -29,6 +29,7 @@ android {
         includeInApk true
     }
     buildToolsVersion '32.0.0'
+    namespace 'com.johnson.webcomicreader'
 }
 
 dependencies {
